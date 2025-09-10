@@ -1,0 +1,4 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Concord-API/API3-Frontend.git
+	branch = main
