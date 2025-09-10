@@ -2,3 +2,7 @@
 	path = frontend
 	url = https://github.com/Concord-API/API3-Frontend.git
 	branch = main
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Concord-API/API3-Backend.git
+	branch = main
