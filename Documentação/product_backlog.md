@@ -157,7 +157,7 @@ Uma User Story é considerada **concluída** quando:
 ### US 5  
 **Como diretor, quero cadastrar gestores para organizar a relação de lideranças e equipes.**
 
-- O sistema deve disponibilizar formulário para cadastro de gestores.  
+- O sistema deve disponibilizar uma ferramenta para cadastro de gestores.  
 - Campos obrigatórios: nome, e-mail, setor vinculado.  
 - O sistema deve validar dados obrigatórios antes de salvar.  
 - Gestor cadastrado deve aparecer na listagem de gestores.  
