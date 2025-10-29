@@ -1,131 +1,58 @@
-# Sprint Backlog
-O objetivo do backlog é organizar, priorizar e tornar visível o trabalho que deve ser feito, garantindo que a equipe foque no que gera mais valor para o cliente e para o produto.
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=980AC9&height=120&section=header"/>
+</p>
 
----
-### Definition of Ready (DoR) – Geral
-Uma User Story é considerada **pronta para entrar na sprint** quando:  
-- Está claramente descrita, com valor de negócio identificado.  
-- Possui critérios de aceitação definidos e compreendidos pelo time.  
-- Foi priorizada pelo Product Owner.  
-- Possui estimativa de esforço realizada pelo time de desenvolvimento.  
-- Dependências externas foram identificadas e não bloqueiam o início da implementação.  
-- Protótipo, wireframe ou referências visuais estão disponíveis (quando aplicável).  
+## Sobre a plataforma
+O projeto consiste no desenvolvimento de uma plataforma de mapeamento de competências, funcionando como um “LinkedIn interno” da empresa. Nela, cada colaborador poderá criar e manter um perfil profissional com suas competências técnicas, soft skills, certificações, experiências e outras informações relevantes. Os gestores terão a possibilidade de complementar esses perfis com tags e avaliações, o que facilitará a identificação de talentos de forma objetiva. A plataforma permitirá realizar buscas por habilidades específicas, apoiar a organização de equipes, avaliar departamentos e visualizar a distribuição de competências dentro da empresa, tornando-se uma ferramenta estratégica para a gestão de pessoas e desenvolvimento profissional.
 
----
+## Product Backlog
+O objetivo do backlog é organizar, priorizar e tornar visível o trabalho que deve ser feito, garantindo que a equipe foque no que gera mais valor para o cliente e 
+para o produto.
 
-### Definition of Done (DoD) – Geral
-Uma User Story é considerada **concluída** quando:  
-- Funcionalidade implementada atende a todos os critérios de aceitação.  
-- Código desenvolvido foi revisado por pelo menos um membro da equipe.  
-- Testes unitários e funcionais realizados e aprovados.  
-- Funcionalidade integrada ao repositório principal sem conflitos.  
-- Documentação do sistema foi atualizada (ex.: README, guia de uso ou prints).  
-- Interface segue o padrão visual definido para o projeto.  
-- A entrega foi demonstrada e validada pelo Product Owner na review da sprint.
----
-### Dicionário
-
-- Rank - ordem de entrega ≠ Prioridade
-- Prioridade é oque agrega mais valor
-- User Story: “O que o usuário quer?” - funcionalidade a ser desenvolvida e entregue
-- Estimativa: medida de esforço em escala Fibonacci (1–13)
-    
-    > 1 – Muito Pequeno
-    > 
-    > 
-    > Esforço mínimo, complexidade muito baixa, quase nenhum risco. Menos de um dia.
-    > 
-    > *Ex: pequena alteração de texto na interface.*
-    > 
-    
-    ---
-    
-    > 2 – Pequeno
-    > 
-    > 
-    > Baixo esforço, tarefa simples, poucas dependências. ~1–2 dias.
-    > 
-    > *Ex: adicionar um campo simples em um formulário.*
-    > 
-    
-    ---
-    
-    > 3 – Médio-Pequeno
-    > 
-    > 
-    > Esforço moderado, não trivial, pode envolver pequenos testes ou uma dependência.
-    > 
-    > *Ex: ajustar uma query no banco de dados.*
-    > 
-    
-    ---
-    
-    > 5 – Médio
-    > 
-    > 
-    > Esforço perceptível, alguma complexidade, possíveis dependências. Vários dias.
-    > 
-    > *Ex: desenvolver uma pequena funcionalidade ou endpoint de API.*
-    > 
-    
-    ---
-    
-    > 8 – Grande
-    > 
-    > 
-    > Alto esforço, múltiplas dependências, com certeza mias de um dev. ~1 semana ou mais.
-    > 
-    > *Ex: integrar um serviço de terceiros.*
-    > 
-    
-    ---
-    
-    > 13 – Muito Grande
-    > 
-    > 
-    > Complexidade significativa, muitas incertezas e dependências. Pode levar semanas. Muitas vezes deve ser dividido em histórias menores.
-    > 
-    > *Ex: refatorar todo o sistema para suportar microsserviços.*
-    > 
-- Sprint: Sprint em que a funcionalidade deve ser entregue
-
----
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 | --- | --- | --- | --- | --- |
 | 1 | Alta | **Como diretor**, quero visualizar e consultar um dashboard de cada equipe **para identificar rapidamente habilidades disponíveis e avaliar a distribuição dos talentos**. | 8 | Sprint 1 |
 | 2 | Alta | **Como colaborador**, quero visualizar meu perfil e cadastrar minhas skills **para registrar minhas competências, certificações e experiências**. | 8 | Sprint 1 |
 | 3 | Média | **Como usuário**, quero ter acesso a uma tela (mesmo que não funcional) de cadastro de usuário **para validação de nível de acesso - diretor, gestor e colaborador**. | 3 | Sprint 1 |
-
-
-## Critérios de Aceitação – User Stories
-
-### US 1  
-**Como diretor, quero visualizar e consultar um dashboard de cada equipe para identificar rapidamente habilidades disponíveis e avaliar a distribuição dos talentos.**
-
-- O sistema deve exibir um dashboard por equipe.  
-- O dashboard deve listar todos os integrantes da equipe.  
-- As skills de cada integrante devem estar visíveis.  
-- O dashboard deve apresentar a distribuição das habilidades (ex.: gráfico ou listagem organizada).  
-- O acesso ao dashboard deve estar disponível somente para diretores.  
-
----
-
-### US 2  
-**Como colaborador, quero visualizar meu perfil e cadastrar minhas skills para registrar minhas competências, certificações e experiências.**
-
-- O colaborador deve conseguir acessar seu perfil individual.  
-- O perfil deve permitir cadastrar, editar e excluir skills.  
-- Cada skill deve incluir pelo menos: nome, nível e certificações associadas.  
-- As informações cadastradas devem ser salvas no sistema e exibidas ao usuário.  
-- O colaborador deve conseguir visualizar suas informações já registradas.  
+| 4 | Alta | **Como usuário**, quero ter acesso restrito às minhas informações **para garantir segurança e privacidade de acordo com meu nível de acesso**. | 5 | Sprint 2 |
+| 5 | Alta | **Como diretor**, quero cadastrar gestores **para organizar a relação de lideranças e equipes**. | 3 | Sprint 2 |
+| 6 | Alta | **Como diretor**, quero cadastrar colaboradores **para manter atualizado o quadro de profissionais da empresa**. | 3 | Sprint 2 |
+| 7 | Alta | **Como diretor**, quero cadastrar equipes **para vincular colaboradores e gestores em grupos de trabalho**. | 3 | Sprint 2 |
+| 8 | Alta | **Como diretor**, quero cadastrar setores **para estruturar melhor a divisão organizacional**. | 3 | Sprint 2 |
+| 9 | Alta | **Como diretor**, quero acessar um dashboard funcional **para analisar métricas em tempo real das equipes**. | 8 | Sprint 2 |
+| 10 | Média | **Como diretor**, quero avaliar colaboradores **para identificar talentos e oportunidades de desenvolvimento**. | 3 | Sprint 3 |
+| 11 | Média | **Como colaborador**, quero avaliar minhas próprias competências **para acompanhar meu progresso e desenvolvimento profissional**. | 3 | Sprint 3 |
+| 12 | Média | **Como diretor**, quero filtrar dashboards por métricas específicas **para facilitar a análise de dados de acordo com necessidades**. | 8 | Sprint 3 |
+| 13 | Baixa | **Como usuário**, quero realizar login no sistema **para acessar funcionalidades de acordo com meu perfil de acesso e ter segurança dos meus dados com autenticações**. | 5 | Sprint 3 |
+| 14 | Baixa | **Como usuário**, quero poder cadastrar skills - mesmo que não registradas no sistema, **para atualizar automaticamente indicadores relacionados**. | 5 | Sprint 3 |
 
 ---
 
-### US 3  
-**Como usuário, quero ter acesso a uma tela (mesmo que não funcional) de cadastro de usuário para validação de nível de acesso - diretor, gestor e colaborador.**
+### Sobre nós
+A Concord é uma equipe do 3º semestre comprometida com a criação de soluções tecnológicas que unem inovação, eficiência e impacto. Nosso propósito é transformar desafios em oportunidades por meio da aplicação de metodologias ágeis, pensamento crítico e criatividade.
 
-- O sistema deve exibir uma tela de cadastro de usuário.  
-- A tela deve conter campos básicos: nome, e-mail, senha e nível de acesso (diretor, gestor, colaborador).  
-- Os botões e campos podem não ter funcionalidade real nesta versão.  
-- A tela deve seguir o padrão visual do sistema.  
-- Deve ser possível simular o fluxo de cadastro, mesmo sem persistência de dados.  
+Contamos com um time multidisciplinar, engajado e colaborativo, que valoriza o aprendizado contínuo e a troca de experiências para evoluir em cada projeto. Buscamos excelência em nossas entregas, priorizando qualidade, escalabilidade e visão prática.
+
+Acreditamos que a força da nossa equipe está na união entre a dedicação, a curiosidade e a capacidade de encontrar soluções inteligentes, consolidando a Concord como um grupo em constante evolução, pronto para enfrentar desafios e gerar resultados de alto valor.
+
+---
+
+### 🎯 Nossa Missão e Visão
+
+<u>Missão:</u>
+Aplicar conhecimento e criatividade para desenvolver soluções tecnológicas inovadoras, que não apenas impulsionem a eficiência, mas também fortaleçam o aprendizado, a colaboração e o impacto positivo em empresas e comunidades.
+
+<u>Visão:</u>
+Consolidar-se como uma equipe de referência em tecnologia e inovação acadêmica, reconhecida pela capacidade de transformar ideias em projetos de qualidade, com resultados escaláveis e relevantes para o mercado e para a sociedade.
+
+---
+### Quem somos?
+
+| Integrante                 | Função |
+|:--------------------------:|:------------------------:|
+ Vinicius P. de Pádua       | Product Owner            |
+ João Vitor Andrade         | Scrum Master             |
+ João Vitor Baranov         | Developer                |
+ Victor Nogueira            | Developer                |
+ Richard Leonardo Cordeiro  | Developer                |
+ Isaac Oliveira             | Developer                |
