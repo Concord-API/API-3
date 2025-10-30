@@ -56,4 +56,3 @@ Consolidar-se como uma equipe de referência em tecnologia e inovação acadêmi
  Victor Nogueira            | Developer                |
  Richard Leonardo Cordeiro  | Developer                |
  Isaac Oliveira             | Developer                |
-
