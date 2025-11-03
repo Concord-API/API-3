@@ -10,8 +10,7 @@ O projeto consiste no desenvolvimento de uma plataforma de mapeamento de compet�
 
   <br>
 
-Product Backlog
-O objetivo do backlog é organizar, priorizar e tornar visível o trabalho que deve ser feito, garantindo que a equipe foque no que gera mais valor para o cliente e 
+> O objetivo do backlog é organizar, priorizar e tornar visível o trabalho que deve ser feito, garantindo que a equipe foque no que gera mais valor para o cliente e 
 para o produto.
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
