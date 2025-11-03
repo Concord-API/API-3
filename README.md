@@ -5,7 +5,12 @@
 ## Sobre a plataforma
 O projeto consiste no desenvolvimento de uma plataforma de mapeamento de competências, funcionando como um “LinkedIn interno” da empresa. Nela, cada colaborador poderá criar e manter um perfil profissional com suas competências técnicas, soft skills, certificações, experiências e outras informações relevantes. Os gestores terão a possibilidade de complementar esses perfis com tags e avaliações, o que facilitará a identificação de talentos de forma objetiva. A plataforma permitirá realizar buscas por habilidades específicas, apoiar a organização de equipes, avaliar departamentos e visualizar a distribuição de competências dentro da empresa, tornando-se uma ferramenta estratégica para a gestão de pessoas e desenvolvimento profissional.
 
-## Product Backlog
+<details>
+  <summary><strong>🟪 Product Backlog</strong></summary>
+
+  <br>
+
+Product Backlog
 O objetivo do backlog é organizar, priorizar e tornar visível o trabalho que deve ser feito, garantindo que a equipe foque no que gera mais valor para o cliente e 
 para o produto.
 
@@ -25,6 +30,35 @@ para o produto.
 | 12 | Média | **Como diretor**, quero filtrar dashboards por métricas específicas **para facilitar a análise de dados de acordo com necessidades**. | 8 | Sprint 3 |
 | 13 | Baixa | **Como usuário**, quero realizar login no sistema **para acessar funcionalidades de acordo com meu perfil de acesso e ter segurança dos meus dados com autenticações**. | 5 | Sprint 3 |
 | 14 | Baixa | **Como usuário**, quero poder cadastrar skills - mesmo que não registradas no sistema, **para atualizar automaticamente indicadores relacionados**. | 5 | Sprint 3 |
+
+
+</details>
+
+<details open>
+  <summary><strong>🧩 Estratégia de Branches e padrões de commits</strong></summary>
+
+  <br>
+  
+### 🌿 Estrutura de Branches
+  - **main**: Branch principal e estável do projeto. Recebe merges apenas ao final de cada sprint, após revisão e aprovação.  
+  - **sprintX** (ex: sprint1, sprint2, sprint3): Cada sprint possui sua própria branch base, onde são integradas todas as funcionalidades desenvolvidas durante aquele ciclo.  
+  - **feature/...**: Para cada nova funcionalidade ou correção, é criada uma branch específica a partir da branch da sprint em andamento.  
+    Exemplo: `feature/nome-da-funcionalidade`
+
+  Após a conclusão e revisão da funcionalidade, é feito um *Pull Request (PR)* para a branch da sprint correspondente.  
+  Quando o merge é aprovado, a branch da funcionalidade é deletada para manter o repositório limpo.  
+  Ao final da sprint, a branch sprintX é integrada à main através de um *Pull Request* final.  
+  A branch da sprint é mantida como histórico do desenvolvimento daquela iteração.
+
+  ---
+
+  ### 📊 Métrica de Commits
+  Cada commit deve ser pequeno, descritivo e objetivo, seguindo o padrão de convenção semântica:
+feat: descrição da nova funcionalidadefix: correção de bug ou comportamento inesperadorefactor: melhoria de código sem alterar comportamentodocs: atualização de documentaçãochore: tarefas de configuração, build ou manutenção
+O número de commits é usado como indicador de contribuição individual e progresso da sprint, permitindo rastrear o fluxo de trabalho no repositório
+
+</details>
+
 
 ---
 
