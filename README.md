@@ -24,11 +24,13 @@ para o produto.
 | 7 | Alta | **Como diretor**, quero cadastrar equipes **para vincular colaboradores e gestores em grupos de trabalho**. | 3 | Sprint 2 |
 | 8 | Alta | **Como diretor**, quero cadastrar setores **para estruturar melhor a divisão organizacional**. | 3 | Sprint 2 |
 | 9 | Alta | **Como diretor**, quero acessar um dashboard funcional **para analisar métricas em tempo real das equipes**. | 8 | Sprint 2 |
-| 10 | Média | **Como diretor**, quero avaliar colaboradores **para identificar talentos e oportunidades de desenvolvimento**. | 3 | Sprint 3 |
+| 10 | Média | **Como diretor**, quero avaliar as skills dos colaboradores **para identificar talentos e oportunidades de desenvolvimento**. | 3 | Sprint 3 |
 | 11 | Média | **Como colaborador**, quero avaliar minhas próprias competências **para acompanhar meu progresso e desenvolvimento profissional**. | 3 | Sprint 3 |
-| 12 | Média | **Como diretor**, quero filtrar dashboards por métricas específicas **para facilitar a análise de dados de acordo com necessidades**. | 8 | Sprint 3 |
-| 13 | Baixa | **Como usuário**, quero realizar login no sistema **para acessar funcionalidades de acordo com meu perfil de acesso e ter segurança dos meus dados com autenticações**. | 5 | Sprint 3 |
-| 14 | Baixa | **Como usuário**, quero poder cadastrar skills - mesmo que não registradas no sistema, **para atualizar automaticamente indicadores relacionados**. | 5 | Sprint 3 |
+| 12 | Baixa | **Como usuário**, quero realizar login no sistema **para acessar funcionalidades de acordo com meu perfil de acesso e ter segurança dos meus dados com autenticações**. | 5 | Sprint 3 |
+| 13 | Média | **Como usuário**, quero poder cadastrar skills - mesmo que não registradas no sistema, **para atualizar automaticamente indicadores relacionados**. | 5 | Sprint 3 |
+| 14 | Baixa | **Como colaborador**, quero poder liderar um *squad* dentro de uma equipe **para gerenciar projetos específicos e facilitar a organização interna**. | 8 | Sprint 3 |
+| 15 | Alta | **Como diretor**, quero poder distinguir o nível de proficiência de uma skill por um número, além de poder distinguir por cores **para facilitar identificação do nível de proficiência de cada habilidade**. | 3 | Sprint 3 |
+| 16 | Alta | **Como diretor**, quero visualizar colaboradores por filtro de competências **para listar e analisar os profissionais que possuem determinada habilidade**. | 5 | Sprint 3 |
 
 
 </details>
