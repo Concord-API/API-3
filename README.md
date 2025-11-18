@@ -36,33 +36,65 @@ para o produto.
 </details>
 
 <details open>
-  <summary><strong>🧩 Estratégia de Branches e padrões de commits</strong></summary>
+  <summary><strong>🧩 Estratégia de branches e padrões de commits</strong></summary>
 
   <br>
   
 ### 🌿 Estrutura de Branches
   - **main**: Branch principal e estável do projeto. Recebe merges apenas ao final de cada sprint, após revisão e aprovação.  
   - **sprintX** (ex: sprint1, sprint2, sprint3): Cada sprint possui sua própria branch base, onde são integradas todas as funcionalidades desenvolvidas durante aquele ciclo.  
-  - **feature/...**: Para cada nova funcionalidade ou correção, é criada uma branch específica a partir da branch da sprint em andamento.  
-    Exemplo: `feature/nome-da-funcionalidade`
+  - **task-número/feature-com-traço-se-tiver-espaco**: Para cada nova funcionalidade ou correção, é criada uma branch específica a partir da branch da sprint em andamento.  
+    Exemplo: `task-23/crud-cargo`
 
   Após a conclusão e revisão da funcionalidade, é feito um *Pull Request (PR)* para a branch da sprint correspondente.  
   Quando o merge é aprovado, a branch da funcionalidade é deletada para manter o repositório limpo.  
   Ao final da sprint, a branch sprintX é integrada à main através de um *Pull Request* final.  
   A branch da sprint é mantida como histórico do desenvolvimento daquela iteração.
 
+  **obs:** Para as branches de documentação é usada a estrutura `docs/...`
+
   ---
 
   ### 📊 Métrica de Commits
   Cada commit deve ser pequeno, descritivo e objetivo, seguindo o padrão de convenção semântica:
-feat: descrição da nova funcionalidadefix: correção de bug ou comportamento inesperadorefactor: melhoria de código sem alterar comportamentodocs: atualização de documentaçãochore: tarefas de configuração, build ou manutenção
+- feat: descrição da nova funcionalidade
+- fix: correção de bug ou comportamento inesperador
+- factor: melhoria de código sem alterar comportamento
+- docs: atualização de documentação
+- chore: tarefas de configuração, build ou manutenção
+
 O número de commits é usado como indicador de contribuição individual e progresso da sprint, permitindo rastrear o fluxo de trabalho no repositório
 
 </details>
 
 
+
+
+<details>
+<summary><strong>🧱 Tasks</strong></summary>
+
+  <br>
+
+## Estrutura e organização das tasks
+**As tasks do projeto seguem uma organização hierárquica baseada na numeração.**
+### Épicos (tasks principais)
+Tasks representadas por números inteiros seguidos de .0 (ex.: 20.0, 23.0) indicam funcionalidades amplas ou macroentregas.
+Esses épicos agrupam um conjunto de subtarefas relacionadas.
+### Subtarefas (tasks derivadas)
+Tasks que não terminam em .0 (ex.: 23.1, 20.2) representam partes específicas do épico correspondente.
+Elas detalham e subdividem a entrega em atividades menores.
+</details>
+
 ---
 
+### 🗓️ Cronograma do Projeto
+| Sprint | Período | Objetivo Principal | Documentação |
+|-------|-----------------------------|--------------------|--------------------|
+| [**Sprint 1**](https://github.com/Concord-API/API-3/tree/sprint-1) | 08/09/2025 → 28/09/2025 | Construção da base da aplicação e funcionalidades essenciais. | [Docs. Sprint 1](https://github.com/Concord-API/API-3/tree/sprint-1/documentacao) |
+| [**Sprint 2**](https://github.com/Concord-API/API-3/tree/sprint-2) | 06/10/2025 → 26/10/2025 | Desenvolvimento das features centrais e refinamento do fluxo. | [Docs. Sprint 2](https://github.com/Concord-API/API-3/tree/sprint-2/documentacao)|
+| [**Sprint 3**](https://github.com/Concord-API/API-3/tree/sprint-3) | 03/11/2025 → 23/11/2025 | Conclusão dos épicos, testes e estabilização do sistema. | [Docs. Sprint 3](https://github.com/Concord-API/API-3/tree/sprint-3/documentacao) |
+
+---
 ### Sobre nós
 A Concord é uma equipe do 3º semestre comprometida com a criação de soluções tecnológicas que unem inovação, eficiência e impacto. Nosso propósito é transformar desafios em oportunidades por meio da aplicação de metodologias ágeis, pensamento crítico e criatividade.
 
