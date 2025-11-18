@@ -92,7 +92,7 @@ Elas detalham e subdividem a entrega em atividades menores.
 |-------|-----------------------------|--------------------|--------------------|
 | [**Sprint 1**](https://github.com/Concord-API/API-3/tree/sprint-1) | 08/09/2025 → 28/09/2025 | Construção da base da aplicação e funcionalidades essenciais. | [Docs. Sprint 1](https://github.com/Concord-API/API-3/tree/sprint-1/documentacao) |
 | [**Sprint 2**](https://github.com/Concord-API/API-3/tree/sprint-2) | 06/10/2025 → 26/10/2025 | Desenvolvimento das features centrais e refinamento do fluxo. | [Docs. Sprint 2](https://github.com/Concord-API/API-3/tree/sprint-2/documentacao)|
-| [**Sprint 3**](https://https://github.com/Concord-API/API-3/tree/sprint-3) | 03/11/2025 → 23/11/2025 | Conclusão dos épicos, testes e estabilização do sistema. | [Docs. Sprint 3](https://github.com/Concord-API/API-3/tree/sprint-2/documentacao) |
+| [**Sprint 3**](https://github.com/Concord-API/API-3/tree/sprint-3) | 03/11/2025 → 23/11/2025 | Conclusão dos épicos, testes e estabilização do sistema. | [Docs. Sprint 3](https://github.com/Concord-API/API-3/tree/sprint-3/documentacao) |
 
 ---
 ### Sobre nós
