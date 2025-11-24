@@ -75,13 +75,15 @@ para o produto.
 
   ---
 
-  ### 📊 Padrão de Commits
+  ### 📊 Padrões de Commits
   Cada commit deve ser pequeno, descritivo e objetivo, seguindo o padrão de convenção semântica:
 - feat: descrição da nova funcionalidade
 - fix: correção de bug ou comportamento inesperador
 - factor: melhoria de código sem alterar comportamento
 - docs: atualização de documentação
 - chore: tarefas de configuração, build ou manutenção
+
+Exemplo: `feat: adicionar suporte para cargos e melhorias no formulário de criação de colaboradores, incluindo seleção de gênero e avatar`
 
 O número de commits é usado como indicador de contribuição individual e progresso da sprint, permitindo rastrear o fluxo de trabalho no repositório
 
