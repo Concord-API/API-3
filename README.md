@@ -2,6 +2,10 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=980AC9&height=120&section=header"/>
 </p>
 
+# API 3º Semestre BD
+
+# Proficio - Mapeamento de Competências
+
 ## Sobre a plataforma
 O projeto consiste no desenvolvimento de uma plataforma de mapeamento de competências, funcionando como um “LinkedIn interno” da empresa. Nela, cada colaborador poderá criar e manter um perfil profissional com suas competências técnicas, soft skills, certificações, experiências e outras informações relevantes. Os gestores terão a possibilidade de complementar esses perfis com tags e avaliações, o que facilitará a identificação de talentos de forma objetiva. A plataforma permitirá realizar buscas por habilidades específicas, apoiar a organização de equipes, avaliar departamentos e visualizar a distribuição de competências dentro da empresa, tornando-se uma ferramenta estratégica para a gestão de pessoas e desenvolvimento profissional.
 
@@ -35,6 +39,22 @@ para o produto.
 
 </details>
 
+### 🗓️ Cronograma do Projeto
+| Sprint | Período | Objetivo Principal | Documentação |
+|-------|-----------------------------|--------------------|--------------------|
+| [**Sprint 1**](https://github.com/Concord-API/API-3/tree/sprint-1) | 08/09/2025 → 28/09/2025 | Construção da base da aplicação e funcionalidades essenciais. | [Docs. Sprint 1](https://github.com/Concord-API/API-3/tree/sprint-1/documentacao) |
+| [**Sprint 2**](https://github.com/Concord-API/API-3/tree/sprint-2) | 06/10/2025 → 26/10/2025 | Desenvolvimento das features centrais e refinamento do fluxo. | [Docs. Sprint 2](https://github.com/Concord-API/API-3/tree/sprint-2/documentacao)|
+| [**Sprint 3**](https://github.com/Concord-API/API-3/tree/sprint-3) | 03/11/2025 → 23/11/2025 | Conclusão dos épicos, testes e estabilização do sistema. | [Docs. Sprint 3](https://github.com/Concord-API/API-3/tree/sprint-3/documentacao) |
+
+
+### 💻 Tecnologias utilizadas
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,ts,js,css,html,git,github,docker,spring,idea,vscode,mysql,tailwind" />
+  </a>
+</p>
+
+
 <details open>
   <summary><strong>🧩 Estratégia de branches e padrões de commits</strong></summary>
 
@@ -55,7 +75,7 @@ para o produto.
 
   ---
 
-  ### 📊 Métrica de Commits
+  ### 📊 Padrão de Commits
   Cada commit deve ser pequeno, descritivo e objetivo, seguindo o padrão de convenção semântica:
 - feat: descrição da nova funcionalidade
 - fix: correção de bug ou comportamento inesperador
@@ -76,6 +96,8 @@ O número de commits é usado como indicador de contribuição individual e prog
   <br>
 
 ## Estrutura e organização das tasks
+
+### o GitHub Projects foi a ferramenta escolhida para alocação de tarefas
 **As tasks do projeto seguem uma organização hierárquica baseada na numeração.**
 ### Épicos (tasks principais)
 Tasks representadas por números inteiros seguidos de .0 (ex.: 20.0, 23.0) indicam funcionalidades amplas ou macroentregas.
@@ -87,14 +109,6 @@ Elas detalham e subdividem a entrega em atividades menores.
 
 ---
 
-### 🗓️ Cronograma do Projeto
-| Sprint | Período | Objetivo Principal | Documentação |
-|-------|-----------------------------|--------------------|--------------------|
-| [**Sprint 1**](https://github.com/Concord-API/API-3/tree/sprint-1) | 08/09/2025 → 28/09/2025 | Construção da base da aplicação e funcionalidades essenciais. | [Docs. Sprint 1](https://github.com/Concord-API/API-3/tree/sprint-1/documentacao) |
-| [**Sprint 2**](https://github.com/Concord-API/API-3/tree/sprint-2) | 06/10/2025 → 26/10/2025 | Desenvolvimento das features centrais e refinamento do fluxo. | [Docs. Sprint 2](https://github.com/Concord-API/API-3/tree/sprint-2/documentacao)|
-| [**Sprint 3**](https://github.com/Concord-API/API-3/tree/sprint-3) | 03/11/2025 → 23/11/2025 | Conclusão dos épicos, testes e estabilização do sistema. | [Docs. Sprint 3](https://github.com/Concord-API/API-3/tree/sprint-3/documentacao) |
-
----
 ### Sobre nós
 A Concord é uma equipe do 3º semestre comprometida com a criação de soluções tecnológicas que unem inovação, eficiência e impacto. Nosso propósito é transformar desafios em oportunidades por meio da aplicação de metodologias ágeis, pensamento crítico e criatividade.
 
