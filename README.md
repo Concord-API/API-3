@@ -21,7 +21,7 @@ O projeto consiste no desenvolvimento de uma plataforma de mapeamento de compet�
 ---
 
 <details>
-  <summary><strong>🟪 Product Backlog</strong></summary>
+  <summary><strong>🟧 Sprint Backlog</strong></summary>
 
   <br>
 
@@ -30,15 +30,6 @@ para o produto.
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 | --- | --- | --- | --- | --- |
-| 1 | Alta | [**Como diretor**, quero visualizar e consultar um dashboard de cada equipe **para identificar rapidamente habilidades disponíveis e avaliar a distribuição dos talentos.**](https://github.com/Concord-API/API-3/issues/8) | 8 | Sprint 1 |
-| 2 | Alta | [**Como colaborador**, quero visualizar meu perfil e cadastrar minhas skills **para registrar minhas competências, certificações e experiências**.](https://github.com/Concord-API/API-3/issues/9) | 8 | Sprint 1 |
-| 3 | Média | [**Como usuário**, quero ter acesso a uma tela (mesmo que não funcional) de cadastro de usuário **para validação de nível de acesso - diretor, gestor e colaborador**.](https://github.com/Concord-API/API-3/issues/10) | 3 | Sprint 1 |
-| 4 | Alta | [**Como usuário**, quero ter acesso restrito às minhas informações **para garantir segurança e privacidade de acordo com meu nível de acesso**.](https://github.com/Concord-API/API-3/issues/20) | 5 | Sprint 2 |
-| 5 | Alta | [**Como diretor**, quero cadastrar gestores **para organizar a relação de lideranças e equipes**.](https://github.com/Concord-API/API-3/issues/21) | 3 | Sprint 2 |
-| 6 | Alta | [**Como diretor**, quero cadastrar colaboradores **para manter atualizado o quadro de profissionais da empresa**.](https://github.com/Concord-API/API-3/issues/22) | 3 | Sprint 2 |
-| 7 | Alta | [**Como diretor**, quero cadastrar equipes **para vincular colaboradores e gestores em grupos de trabalho**.](https://github.com/Concord-API/API-3/issues/23) | 3 | Sprint 2 |
-| 8 | Alta | [**Como diretor**, quero cadastrar setores **para estruturar melhor a divisão organizacional**.](https://github.com/Concord-API/API-3/issues/24) | 3 | Sprint 2 |
-| 9 | Alta | [**Como diretor**, quero acessar um dashboard funcional **para analisar métricas em tempo real das equipes**.](https://github.com/Concord-API/API-3/issues/25) | 8 | Sprint 2 |
 | 10 | Média | [**Como diretor**, quero avaliar colaboradores **para identificar talentos e oportunidades de desenvolvimento**.](https://github.com/Concord-API/API-3/issues/56) | 3 | Sprint 3 |
 | 11 | Média | [**Como colaborador**, quero avaliar minhas próprias competências **para acompanhar meu progresso e desenvolvimento profissional**.](https://github.com/Concord-API/API-3/issues/55) | 3 | Sprint 3 |
 | 12 | Baixa | [**Como usuário**, quero realizar login no sistema **para acessar funcionalidades de acordo com meu perfil de acesso e ter segurança dos meus dados com autenticações**.](https://github.com/Concord-API/API-3/issues/57) | 5 | Sprint 3 |
