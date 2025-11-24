@@ -12,7 +12,7 @@ Antes de iniciar, instale:
 - **Docker Desktop**
 - **Docker Compose**
 - **Node.js (LTS)**  
-- **Java 17+**
+- **Java 21**
 - **Maven** (opcional)
 - **IntelliJ e Visual Studio Code**
 
@@ -39,19 +39,9 @@ MYSQL_PASSWORD=123
 MYSQL_ROOT_PASSWORD=123
 MYSQL_PORT=3307
 ```
-Dentro do diretório API3-Backend, execute o comando abaixo para subir o banco de dados:
-```
-docker compose up -d
-```
+Dentro do Docker Desktop, inicie o Docker compose *api3-backend*.
+![alt text](image.png)
 
-Isto vai subir:
-- MySQL configurado com o banco db_proficio
-- Volume persistente
-
-**obs:** Para parar os serviços do docker compose, efetue este comando:
-```
-docker compose down
-```
 ### 4. Configurar o Backend (API)
 
 Para rodar o backend: Entre na pasta **cd API3-Backend**, pelo **IntelliJ** e execute o *ProficioApplication.java*
