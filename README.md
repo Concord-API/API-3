@@ -9,6 +9,17 @@
 ## Sobre a plataforma
 O projeto consiste no desenvolvimento de uma plataforma de mapeamento de competências, funcionando como um “LinkedIn interno” da empresa. Nela, cada colaborador poderá criar e manter um perfil profissional com suas competências técnicas, soft skills, certificações, experiências e outras informações relevantes. Os gestores terão a possibilidade de complementar esses perfis com tags e avaliações, o que facilitará a identificação de talentos de forma objetiva. A plataforma permitirá realizar buscas por habilidades específicas, apoiar a organização de equipes, avaliar departamentos e visualizar a distribuição de competências dentro da empresa, tornando-se uma ferramenta estratégica para a gestão de pessoas e desenvolvimento profissional.
 
+## [📚 Guia de Instalação - *Proficio*](https://github.com/Concord-API/API-3/blob/sprint-3/documentacao/guia_instal.md)
+
+### 🗓️ Cronograma do Projeto
+| Sprint | Período | Objetivo Principal | Documentação |
+|-------|-----------------------------|--------------------|--------------------|
+| [**Sprint 1**](https://github.com/Concord-API/API-3/tree/sprint-1) | 08/09/2025 → 28/09/2025 | Construção da base da aplicação e funcionalidades essenciais. | [Docs. Sprint 1](https://github.com/Concord-API/API-3/tree/sprint-1/documentacao) |
+| [**Sprint 2**](https://github.com/Concord-API/API-3/tree/sprint-2) | 06/10/2025 → 26/10/2025 | Desenvolvimento das features centrais e refinamento do fluxo. | [Docs. Sprint 2](https://github.com/Concord-API/API-3/tree/sprint-2/documentacao)|
+| [**Sprint 3**](https://github.com/Concord-API/API-3/tree/sprint-3) | 03/11/2025 → 23/11/2025 | Conclusão dos épicos, testes e estabilização do sistema. | [Docs. Sprint 3](https://github.com/Concord-API/API-3/tree/sprint-3/documentacao) |
+
+---
+
 <details>
   <summary><strong>🟪 Product Backlog</strong></summary>
 
@@ -38,21 +49,6 @@ para o produto.
 
 
 </details>
-
-### 🗓️ Cronograma do Projeto
-| Sprint | Período | Objetivo Principal | Documentação |
-|-------|-----------------------------|--------------------|--------------------|
-| [**Sprint 1**](https://github.com/Concord-API/API-3/tree/sprint-1) | 08/09/2025 → 28/09/2025 | Construção da base da aplicação e funcionalidades essenciais. | [Docs. Sprint 1](https://github.com/Concord-API/API-3/tree/sprint-1/documentacao) |
-| [**Sprint 2**](https://github.com/Concord-API/API-3/tree/sprint-2) | 06/10/2025 → 26/10/2025 | Desenvolvimento das features centrais e refinamento do fluxo. | [Docs. Sprint 2](https://github.com/Concord-API/API-3/tree/sprint-2/documentacao)|
-| [**Sprint 3**](https://github.com/Concord-API/API-3/tree/sprint-3) | 03/11/2025 → 23/11/2025 | Conclusão dos épicos, testes e estabilização do sistema. | [Docs. Sprint 3](https://github.com/Concord-API/API-3/tree/sprint-3/documentacao) |
-
-
-### 💻 Tecnologias utilizadas
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,ts,js,css,html,git,github,docker,spring,idea,vscode,mysql,tailwind" />
-  </a>
-</p>
 
 
 <details open>
@@ -108,6 +104,15 @@ Esses épicos agrupam um conjunto de subtarefas relacionadas.
 Tasks que não terminam em .0 (ex.: 23.1, 20.2) representam partes específicas do épico correspondente.
 Elas detalham e subdividem a entrega em atividades menores.
 </details>
+
+---
+
+### Tecnologias utilizadas
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,ts,js,css,html,git,github,docker,spring,idea,vscode,mysql,tailwind" />
+  </a>
+</p>
 
 ---
 
